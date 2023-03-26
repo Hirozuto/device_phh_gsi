@@ -1,6 +1,4 @@
-$(call inherit-product, vendor/octavi/config/common.mk)
-$(call inherit-product, vendor/octavi/config/BoardConfigSoong.mk)
-$(call inherit-product, vendor/octavi/config/BoardConfigOctavi.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 $(call inherit-product, device/octavi/sepolicy/common/sepolicy.mk)
 -include vendor/octavi/build/core/config.mk
 TARGET_NO_KERNEL_OVERRIDE := true
