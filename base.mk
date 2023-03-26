@@ -252,7 +252,7 @@ include build/make/target/product/gsi_release.mk
 # Protect deskclock from power save
 PRODUCT_COPY_FILES += \
 	device/phh/treble/files/com.android.deskclock_whitelist.xml:system/etc/sysconfig/com.android.deskclock_whitelist.xml
-=======
+
 #Huawei devices don't declare fingerprint and telephony hardware feature
 #TODO: Proper detection
 PRODUCT_COPY_FILES := \
@@ -511,4 +511,3 @@ PRODUCT_COPY_FILES += \
 # QCOM in-call audio fix as a standalone app
 PRODUCT_PACKAGES += \
     QcRilAm
->>>>>>> upstream/android-13.0
