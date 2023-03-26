@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Huawei devices don't declare fingerprint and telephony hardware feature
 #TODO: Proper detection
 PRODUCT_COPY_FILES := \
